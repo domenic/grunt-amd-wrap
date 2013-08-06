@@ -26,7 +26,7 @@ grunt.initConfig({
         },
         aFewFilesManually: {
             { src: "lib/my-module.js", dest: "artifacts/amd/my-module.js" },
-            { src: "lib/my-helper-module.js", dest: "artifacts/amd/my-helper-module.js" }
+            { src: "lib/helper-module.js", dest: "artifacts/amd/helper-module.js" }
         },
         usingDynamicExpansion: {
             expand: true,
