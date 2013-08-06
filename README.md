@@ -1,6 +1,6 @@
-# Grunt Plugin to Wrap CommonJS in AMD
+# Wrap CommonJS in AMD via Grunt
 
-This is a grunt plugin that will wrap your CommonJS modules into the
+This is a [Grunt](http://gruntjs.com/) plugin to wrap your CommonJS modules into the
 [simplified CommonJS wrapper](https://github.com/amdjs/amdjs-api/wiki/AMD#simplified-commonjs-wrapping-) format, i.e.:
 
 ```js
