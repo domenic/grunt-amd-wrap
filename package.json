@@ -1,0 +1,30 @@
+{
+    "name": "grunt-amd-wrap",
+    "keywords": ["amd", "commonjs", "modules", "build", "gruntplugin"],
+    "description": "Grunt task to wrap CommonJS files in `define(function (require, exports, module) { ... })`.",
+    "version": "1.0.0",
+    "author": "Domenic Denicola <domenic@domenicdenicola.com> (http://domenicdenicola.com)",
+    "license": "WTFPL",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/domenic/grunt-amd-wrap.git"
+    },
+    "bugs": "http://github.com/domenic/grunt-amd-wrap/issues",
+    "scripts": {
+        "test": "grunt test",
+        "lint": "jshint tasks"
+    },
+    "peerDependencies": {
+        "grunt": "~0.4.0"
+    },
+    "dependencies": {
+        "amd-wrap": "1.x"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-cli": "~0.1.9",
+        "grunt-simple-mocha": "~0.4.0",
+        "grunt-contrib-clean": "~0.5.0",
+        "jshint": "~2.1.9"
+    }
+}
